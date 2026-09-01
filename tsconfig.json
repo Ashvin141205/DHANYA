@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@dhanya/types": ["./packages/types/src/index.ts"],
+      "@dhanya/types/*": ["./packages/types/src/*"],
+      "@dhanya/finance-engine": ["./packages/finance-engine/src/index.ts"],
+      "@dhanya/finance-engine/*": ["./packages/finance-engine/src/*"],
+      "@dhanya/validation": ["./packages/validation/src/index.ts"],
+      "@dhanya/validation/*": ["./packages/validation/src/*"],
+      "@dhanya/config": ["./packages/config/src/index.ts"],
+      "@dhanya/config/*": ["./packages/config/src/*"],
+      "@dhanya/ui": ["./packages/ui/src/index.tsx"],
+      "@dhanya/ui/*": ["./packages/ui/src/*"],
+      "@dhanya/backend": ["./backend/src/index.ts"],
+      "@dhanya/backend/*": ["./backend/src/*"],
+      "@dhanya/web": ["./web/src/index.ts"],
+      "@dhanya/web/*": ["./web/src/*"],
+      "@dhanya/admin": ["./admin/src/index.ts"],
+      "@dhanya/admin/*": ["./admin/src/*"]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "include": [
+    "server.ts",
+    "web/src/**/*",
+    "admin/src/**/*",
+    "backend/src/**/*",
+    "packages/**/*"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Dhanya",
+  "description": "Global Financial Intelligence & Decision-Support Platform with verified data provenance, deterministic calculation engines, loan command center, and multi-country tax and investment intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

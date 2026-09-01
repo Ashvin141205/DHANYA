@@ -1,0 +1,24 @@
+{
+  "browserRuntime": true,
+  "chromiumLaunch": true,
+  "publicRoutes": true,
+  "calculatorInteraction": true,
+  "decisionEngineInteraction": true,
+  "loanCommandCenter": true,
+  "authentication": true,
+  "adminPortal": true,
+  "responsive": {
+    "320": "PASS",
+    "375": "PASS",
+    "430": "PASS",
+    "768": "PASS",
+    "1024": "PASS",
+    "1440": "PASS"
+  },
+  "consoleQa": true,
+  "networkQa": true,
+  "seoRuntimeQa": true,
+  "reportPrintQa": true,
+  "defects": [],
+  "fixes": []
+}

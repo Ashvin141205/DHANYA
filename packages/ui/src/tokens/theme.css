@@ -1,0 +1,52 @@
+/**
+ * Dhanya Design Token System — Centralized Tailwind @theme Bridge
+ * AUTO-GENERATED from packages/ui/src/tokens/colors.ts — DO NOT MANUALLY EDIT
+ * Single Authoritative Source: DHANYA_PALETTE & DHANYA_SEMANTIC_COLORS
+ */
+
+@theme {
+  --font-sans: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  /* Dhanya Palette Tokens */
+  --color-warm-ivory: #F5F1E9;
+  --color-warm-surface: #FAF8F3;
+  --color-deep-ink: #111A33;
+  --color-deep-surface: #18213A;
+  --color-deep-border: #232F4D;
+  
+  --color-dhanya-black: #111111;
+  --color-dhanya-secondary: #5F625F;
+  --color-dhanya-muted: #7A7D78;
+  
+  --color-dhanya-border: #DDD9D0;
+  --color-dhanya-border-soft: #E8E4DC;
+  
+  --color-dhanya-emerald: #2F7D68;
+  --color-dhanya-emerald-dark: #256654;
+  --color-dhanya-teal: #4E9583;
+  --color-dhanya-blue: #C9D8F3;
+  --color-dhanya-lavender: #D7D8EF;
+  --color-dhanya-champagne: #C8A96B;
+  --color-dhanya-champagne-dark: #BA9959;
+  --color-dhanya-champagne-text: #8A6A2B;
+
+  --color-dark-text: #F8FAFC;
+
+  /* Semantic UI Tokens */
+  --color-bg-primary: #F5F1E9;
+  --color-bg-surface: #FAF8F3;
+  --color-bg-dark: #111A33;
+  --color-bg-dark-surface: #18213A;
+
+  --color-text-primary: #111111;
+  --color-text-secondary: #5F625F;
+  --color-text-muted: #7A7D78;
+
+  --color-border-primary: #DDD9D0;
+  --color-border-subtle: #E8E4DC;
+
+  --color-accent-emerald: #2F7D68;
+  --color-accent-teal: #4E9583;
+  --color-accent-champagne: #C8A96B;
+}
